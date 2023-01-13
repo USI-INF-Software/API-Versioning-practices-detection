@@ -1,3 +1,4 @@
+
 var regex_dict = [
   { integer: /^(\d{3}|\d{2}|\d{1})+$/i},
   { "v*": /^v\d$/i},
