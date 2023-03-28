@@ -11,7 +11,9 @@ This package contains three raw data sources of the results thoroughly analyzed 
 
 
 ### Detailed formats classification results
-
+Number of commits with version identifiers of API releases classified by
+their formats. \* stands for an integer and \# stands for an arbitrary
+combination of characters:
 
 |                      |                |        |          |        |
 |:---------------------|---------------:|-------:|---------:|-------:|
@@ -49,9 +51,9 @@ This package contains three raw data sources of the results thoroughly analyzed 
 | date(yyyymmdd)       |             27 |      3 |        3 |     33 |
 | Other                |           1549 |   1354 |        0 |   2309 |
 
-Number of commits with version identifiers of API releases classified by
-their formats. \* stands for an integer and \# stands for an arbitrary
-combination of characters
+Number of commits with version identifiers of API preview releases
+classified by their formats. \* stands for an integer:
+
 
 |                    |                |        |          |       |
 |:-------------------|---------------:|-------:|---------:|------:|
@@ -92,5 +94,3 @@ combination of characters
 | semver-rc\*.\*     |            355 |      0 |        0 |   355 |
 | semver.rc\*.date   |             49 |      0 |        0 |    49 |
 
-Number of commits with version identifiers of API preview releases
-classified by their formats. \* stands for an integer
